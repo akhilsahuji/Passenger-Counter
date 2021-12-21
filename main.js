@@ -8,7 +8,7 @@ function increment(){
 }
 function saver(){
     let countStr = count + "- "
-    saveEl.textContent += countStr
+    saveEl.textContent +=countStr
     countEl.textContent = 0
     count=0
 }
